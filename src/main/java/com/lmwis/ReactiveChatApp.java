@@ -9,7 +9,7 @@ import org.springframework.data.mongodb.repository.config.EnableReactiveMongoRep
  *
  */
 @SpringBootApplication
-@EnableReactiveMongoRepositories
+@EnableReactiveMongoRepositories // 启用支持
 public class ReactiveChatApp
 {
     public static void main( String[] args )
